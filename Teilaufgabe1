@@ -1,0 +1,78 @@
+# Teilaufgabe 1: API-Grundlagen
+
+Erläutern Sie das Konzept von APIs in einem Absatz:
+Eine API (Application Programming Interface) ist eine Schnittstelle, die es Anwendungen ermöglicht, miteinander zu kommunizieren. Sie definiert die Regeln und Methoden, wie verschiedene Softwarekomponenten Daten austauschen können. APIs werden häufig verwendet, um Funktionen oder Dienste eines Systems für andere Anwendungen zugänglich zu machen, ohne den Quellcode offenzulegen.
+
+Was ist eine REST-API? Erläutern Sie deren Konzepte (REpresentational, State...):
+Eine REST-API (Representational State Transfer) ist ein Designmuster für Web-Services. Sie basiert auf dem Konzept, dass Ressourcen (z. B. Datenobjekte) über eindeutige URLs repräsentiert und durch HTTP-Methoden wie GET, POST, PUT und DELETE manipuliert werden. Das Hauptkonzept von REST umfasst Zustandslosigkeit (Statelessness), Verwendung von HTTP-Statuscodes, einheitliche Schnittstellen und Ressourcen-orientierte URLs.
+
+Beschreiben Sie, warum eine API skalierbar auf Anforderungen reagieren sollte:
+APIs sollten skalierbar sein, um den steigenden Anforderungen und Benutzerzahlen gerecht zu werden. Skalierbarkeit ermöglicht es, dass ein System Ressourcen dynamisch zuweisen kann, um die Leistung und Verfügbarkeit beizubehalten. Dies ist wichtig, um Engpässe zu vermeiden und sicherzustellen, dass die API unter hoher Last effizient funktioniert.
+
+Wie kann man solche Skalierung technisch umsetzen?
+Skalierung kann durch horizontales Skalieren (Hinzufügen von mehr Servern) oder vertikales Skalieren (Hinzufügen von mehr Ressourcen auf einem Server) erreicht werden. Techniken wie Lastenausgleich, Cloud-basierte Ressourcenverwaltung und Containerisierung können eingesetzt werden, um die Skalierbarkeit einer API zu gewährleisten.
+
+Was ist der Unterschied zwischen einer Client-seitigen Anwendung und einer Server-seitigen Anwendung. Nennen Sie Beispiele:
+Eine clientseitige Anwendung (z. B. Webbrowser) führt Code auf dem Endgerät des Benutzers aus und kommuniziert mit einem Server, um Daten abzurufen. Eine serverseitige Anwendung (z. B. Webserver) verarbeitet Anfragen auf dem Server und sendet dem Client die entsprechenden Ergebnisse. Beispiele für clientseitige Anwendungen sind Webbrowser und mobile Apps, während Beispiele für serverseitige Anwendungen Webserver und Datenbanken sind.
+
+Erläutern Sie die Unterschiede zwischen Mikro- und Makronährstoffen bei Lebensmitteln:
+Mikronährstoffe sind Nährstoffe, die in kleinen Mengen benötigt werden und essentiell für die Gesundheit sind. Dazu gehören Vitamine und Mineralstoffe. Makronährstoffe sind Nährstoffe, die in größeren Mengen benötigt werden und die Hauptenergiequelle für den Körper darstellen. Dazu gehören Kohlenhydrate, Proteine und Fette.
+
+Bei kommerziellen und Open-Source-APIs wird teilweise von API-Keys gesprochen. Um was handelt es sich bei diesem Konzept?
+API-Keys sind ein Sicherheitsmechanismus, der verwendet wird, um den Zugriff auf eine API zu kontrollieren. Sie sind geheime Schlüssel, die dem Entwickler oder Benutzer der API zugewiesen werden. Beim Aufrufen der API muss der API-Key in der Anfrage mitgesendet werden. Dadurch kann der API-Anbieter verfolgen, wer die API verwendet und wie häufig. Dies ermöglicht die Kontrolle und Sicherheit der API-Nutzung.
+
+
+# Teilaufgabe 2: Recherche zu Ernährungsdatenbanken
+
+Für die Recherche zu Ernährungsdatenbanken habe ich drei Datenbanken ausgewählt und die Vor- und Nachteile dieser Datenbanken aufgeführt:
+
+1. MyFitnessPal:
+
+Vorteile:
+Enthält eine umfangreiche Lebensmittel-Datenbank.
+Verfügt über eine mobile App für Benutzerfreundlichkeit.
+Bietet Tracking-Tools für Ernährung und Fitness.
+Nachteile:
+Einige Funktionen erfordern ein kostenpflichtiges Abonnement.
+Kann mit Werbung überladen sein.
+1. Open Food Facts:
+
+Vorteile:
+Enthält eine große Menge an Lebensmittelinformationen.
+Open-Source und von der Community gepflegt.
+Bietet API-Zugriff für Entwickler.
+Nachteile:
+Datenqualität kann variieren, da sie von Benutzern beigesteuert werden.
+Möglicherweise weniger Nutzerfreundlichkeit als kommerzielle Alternativen.
+1. USDA National Nutrient Database:
+
+Vorteile:
+Offizielle Datenbank des US-Landwirtschaftsministeriums.
+Hohe Datenqualität und Genauigkeit.
+Gut geeignet für wissenschaftliche und ernährungsbezogene Anwendungen.
+Nachteile:
+Die API-Nutzung kann eingeschränkter sein als bei kommerziellen Optionen.
+Benutzeroberfläche möglicherweise nicht so ansprechend.
+## Teilaufgabe 2.1: Empfehlung für den Kunden
+
+Angenommen, der Kunde bittet um eine Empfehlung, welche Ernährungsdatenbank er verwenden sollte. Die Wahl hängt von den spezifischen Anforderungen des Kunden ab. Ich würde dem Kunden folgende Antwort geben:
+
+"Sehr geehrter Kunde,
+
+Um Ihnen die bestmögliche Empfehlung zu geben, benötige ich weitere Informationen. Einige Faktoren, die Ihre Entscheidung beeinflussen könnten, sind:
+
+Budget: Möchten Sie eine kostenlose Datenbank verwenden oder sind Sie bereit, für erweiterte Funktionen zu bezahlen?
+Ziel: Was ist Ihr Hauptziel bei der Verwendung einer Ernährungsdatenbank? Tracking, Gewichtsmanagement, gesunde Ernährung oder wissenschaftliche Forschung?
+Benutzerfreundlichkeit: Legen Sie Wert auf eine benutzerfreundliche Oberfläche oder sind Sie bereit, sich mit technischen Details auseinanderzusetzen?
+Datenqualität: Ist Ihnen die Genauigkeit und Aktualität der Daten besonders wichtig?
+Integration: Möchten Sie die Datenbank in andere Anwendungen oder Plattformen integrieren?
+Bitte teilen Sie mir diese Informationen mit, damit ich Ihnen eine maßgeschneiderte Empfehlung geben kann."
+
+Die endgültige Empfehlung hängt von den vom Kunden bereitgestellten Antworten auf diese Fragen ab.
+
+Bitte beachten Sie, dass die Wahl der Datenbank stark von den individuellen Bedürfnissen und Vorlieben des Kunden abhängt.
+
+
+
+
+
